@@ -1,17 +1,17 @@
-function triangletracker(){
-  var sideA=parseInt(document.getElementById('input1').value);
-  var sideB=parseInt(document.getElementById('input2').value);
-  var sideC=parseInt(document.getElementById('input3').value);
-  if (sideA ===sideB && sideB ===sideC) {
+function triangleTracker(){
+  var sideA=parseInt(document.getElementById('inputOne').value);
+  var sideB=parseInt(document.getElementById('inputTwo').value);
+  var sideC=parseInt(document.getElementById('inputThree').value);
+  if (sideA ===sideB && sideB===sideC) {
     alert("equilateral");
   }
-  if (sideA === sideB && != sideC) {
+  else if (sideA === sideB || sideA === sideC || sideC === sideB) {
     alert("isosceles");
   }
-  if (sideA != sideB != sideC) {
-    alert("scalene");
+  else if (sideA != sideB && sideB != sideC) {
+      alert("scalene");
   }
   else {
-    alert("Not A Triangle!");
+      alert("Not a triangle!");
   }
-}
+};
