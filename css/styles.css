@@ -1,0 +1,11 @@
+h1{
+  text-align: center;
+  color: yellow;
+
+}
+.tracker{
+  border: 2px solid blue;
+  margin-left: 250px;
+  margin-right: 250px;
+  background-color: teal;
+}
