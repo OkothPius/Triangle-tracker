@@ -11,4 +11,7 @@ function triangletracker(){
   if (sideA != sideB != sideC) {
     alert("scalene");
   }
+  else {
+    alert("Not A Triangle!");
+  }
 }
