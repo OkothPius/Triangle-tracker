@@ -8,4 +8,7 @@ function triangletracker(){
   if (sideA === sideB && != sideC) {
     alert("isosceles");
   }
+  if (sideA != sideB != sideC) {
+    alert("scalene");
+  }
 }
