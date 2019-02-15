@@ -5,4 +5,7 @@ function triangletracker(){
   if (sideA ===sideB && sideB ===sideC) {
     alert("equilateral");
   }
+  if (sideA === sideB && != sideC) {
+    alert("isosceles");
+  }
 }
